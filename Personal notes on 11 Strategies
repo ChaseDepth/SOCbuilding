@@ -1,0 +1,158 @@
+11 Strategies of a World-Class
+Cybersecurity Operations Center
+
+https://www.mitre.org/sites/default/files/2022-04/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf
+
+
+Strategy 1. Emphasize the vision! What is it? What are we doing. What are we trying to protect. This is setting a goal so we can figure out a path together.
+
+Strategy 2 of a SOC is finding out roles and responsibilities outlined in the charter. Creating a SOC for a company is indeed a project and should be handled as such, at least in the first few strategies that we’ve read so far. 
+
+Strategy3. Understand what kind of models we need. What are expected demands for the SOC. Would the business need 24/7? Should we tier SOC analysts? This is dependent on the protecting organization's security demand complexity. A small antique store probably does not need a 
+24/7 tiered SOC to monitor their web traffic to their one website, but an international bank most likely does. Of course these are extreme examples so nuances need to be fleshed out by customer engagement to understand their demands. Sometimes they may not even know it, wich is where
+guidance comes in, to help them along the way towards the shared, agreed upon vision. 
+
+
+Strat 4.
+Factors that make a candidate stand out include participation in events such as capture-the-flag, contribution to open-source projects related to cybersecurity, previous general IT and cloud experience, and internships in the cyber operations field.
+An experienced candidate has a deep understanding on one or two areas related in cyber security and a broad understanding on the rest. Imagine the “T-shaped person”. 
+For those doing cyber threat intelligence activities a knowledge of common threat models such as the Diamond Model of intrusion analysis [74] Cyber Kill Chain [75] and MITRE ATT&CK; also, an understanding of public and private data sources to support cyber threat analysis along with strong report writing skills. 
+The lead/manager does not need the savvy technical background but can understand it at the lest. 
+Growing your own SOC staff. You can have the team choose what subjects to focus on and what tech/topics they would like to be an expert on. 
+Understand team member’s backgrounds and encourage cross training and rotations if you want to focus on training from within instead of hiring from outside. 
+Assessment and training team: recommended to be a dedicated solely on team’s professional growth. 
+External training is great.  Certifications and professional conferences. 
+Have an open conversation with employee/candidate to understand their idea of the position. If they want to grow or if they are satisfied with just doing their job. Usually though, a growth path helps employees want to stay on the job. Encourage stake holding, taking on responsibility. 
+Are you bringing on a hiring manager?
+As for me, understand what I bring into the table. What is my value. Once in the job, your experience and value only goes up. 
+Have that clear understanding of growth to align management expectations. Same is true for your own employees. 
+Understand what staff is critical. As in, there is no SOC without so and so. Imagine a ship without a navigator. All jobs are important but some can cripple the company if they are missing. 
+Pre plan staff turnover
+How much is real time, how much is logs
+Growth doesn’t always have to be vertical. Horizontal growth is the rotation, the cross training. This cultivates the well rounded experienced employee. 
+
+Strat 5
+Prioritize what you want to protect and create response measures around that. 
+	Side note: it’s important that the tier 1 SOC analysts gets told on what happened to the incident. Keep them in the loop so they have a respect and vision of the big picture. 
+Playbooks are living documents. Should not be memorized by one person, but outlined and updated continuously
+Incident Triage
+	 
+
+Keep in mind to stay in your lane. If your job is just isolate a malware, then do just that. Coordinate as a team
+Decide when to respond. Depends on severity of attack. What needs to be preserved. 
+Any good SOC would issue labtops and would allow people to work with their own wifi if it is secured. 
+	
+
+Strat 6
+Cyber threat intel
+ID who may want to attack you and how.
+Are they a nation state? Would they target intellectual property? Would they target your customers?
+		Creates user awareness, security engineering, and investment planning
+Use OSINT
+Curated subscriber reports and feedback
+structured threat reporting
+finished unstructured threat reporting
+(It needs to be about an adversary like a person or group. Not artifacts like DNS logs, social media, list of IP addresses)
+Anticipate, sophistication, resources about the adversary.
+Lockheed Martin, Cyber Kill Chain model
+The Diamond model of intrusion analysis
+Defense Science Board Cyber Threat Taxonomy tiered model
+MITRE ATT&CK
+	Recon
+	Resource Development
+	Initial Access
+	Execution
+	Persistence
+	Privilege Escalation
+	Defense Evasion
+	Credential Access
+	Discovery
+	Lateral Movement
+	https://attack.mitre.org/
+Cyber threat Analyst Artifacts
+	Cyber threat intel reports - monthly/annually
+	Case management notes & reporting – daily/weekly
+	Formal incident write-ups – Monthly/quarterly
+	Cyber threat tipper – daily/weekly
+	Short-form malware report – weekly/monthly
+	Long-form malware report – monthly/quarterly
+	Adversary and campaign reports and presentations – quarterly/annually 
+Groups usually have a signature or TTP in their method of attack
+You can have too much information and may overload the SOC. it should provide clarity, not confusion. So not every CTI is useful. Curate CTI to the SOC scope. If we’re protecting credit card data, understanding an electric grid attack isn’t high priority. 
+
+Defense in depth is defensive strategies per tier.
+
+
+Strategy 1- What are here to do. What’s the vision
+Strategy 2- What are responsibilities and roles
+Strategy 3- What is the model. Do we have a tiered system? Is it 24/7? Is it tailored to the business. 
+Strategy 4 - Hire growth and quality staff.  
+Strategy 5 – Prioritize defenses and responses
+Strategy 6 – CTI (Cyber threat intelligence)
+
+Strat 7 Select and collect the right data
+
+What data are we collecting among the large volume that we could collect. How would we secure that data. 
+
+Stat 8 – Tools to support analyst workflow
+SIEM (Security Information and Event Management)
+	aggregates, filters, stores, triages, correlates, and displays sec relevant data. 
+		supts real time and historical review and analysis
+	a force multiplier but the set up can take a while. And not just the software. 
+UEBA  (User entity and behavior analytics)
+	Pillar 1:Use cases
+		Detects users that are acting potentially or clearly maliciously.
+			“Outside their normal pattern of life”
+		Data loss detection and data exfiltration 
+	Pillar 2: Data sources
+		Config management
+		Employee data
+		Next gen firewall, NIDS/NIPS and deep packet inspection
+	Pillar 3: Analytics
+		(un)supervised machine learning
+		rule based detection
+SOAR (Security Automation, Orchestration, and Response
+	Used to automate and orchestrate for SOC. 
+Allows sec ops users to quickly and efficiently design and leverage repeatable processes common in SOC
+	analyzes alerts automatically
+	prioritizes data and enriches it
+	less manual work
+	faster triage and response time
+
+Strat 9 -  Communicate Clearly, Collaborate Often, Share Generously
+	sharing makes everyone in the SOC stronger
+communicating keeps tabs on peoples skills and performances so management knows their team members and what they may need to improve professionally 
+	Collaboration = exp points
+	communicate any changes to stakeholders and constituents 
+
+Strat 10 – Measure Performance to Improve Performance
+Measure/metric – a measure is a single unit (think as a variable) like number of incidents in a month. A metric is made up multiple units (percentage increase or decrease)
+KPI – Key performance indicators
+Assessment – an approach or process to evaluate that results in measures/metrics
+Getting an outside perspective for the stakeholders and SCO to confirm or bolster an idea is helpful
+Review metrics with SOC and stakeholders to demonstrate growth and value over time. This is more important than the metrics itself
+Choose the right measures/metrics to use to evaluate the SOC to focus on the correct practice. 
+You could accidently incentivize your own team to conflate numbers to meet expectations, painting a terrible picture. 
+
+Strat 11 – Turn Up the Volume by Expanding the SOC Functionality
+Threat hunting is one of the first additional functions a SOC usually considers putting in place. 
+	Understand parameters of the hunt
+	The ATT&CK kill chain could be used as a model to put on an adversarial mindset
+Hunt execution
+	Plan the hunt
+	Gather and gain access to necessary data
+	Perform iterative analysis
+		Plan and execute routine hunt analytics
+	Respond or provide findings to IR team
+	Share results and synchronize ops
+This helps the organization running better and helps the hunting team mature with experience
+There is a disagreement in the community if Red Teaming is even part of pentesting. Nonetheless, used by the SOC for adversary emulation, detection testing, organization recon
+Purple teaming – multiple ways to go about it
+Iterative testing by red team for purpose of testing blue team tools, sensors, and detections
+	Blue team ride along. Blue team watches red team do the work
+Open knowledge vuln assessment. Red team pauses at each stage to “true up” or assess and improve their understanding of red teams action. Blow by blow visibility. 
+Cooperative deployment. The two work together
+	Breach and Attack Simulation
+	Malware Analysis Capes
+	Digital Forensics
+	Tabletop Exercises (TTX)
